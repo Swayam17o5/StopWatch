@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body {
+    background: #46469c;
+    margin: 0;
+    font-family: "Share Tech", sans-serif;
+}
+
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+    border-radius: 20px;
+}
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.buttons img:nth-of-type(2) {
+    width: 80px; /* Larger start button */
+}
+
+.buttons img:hover {
+    transform: scale(1.1);
+}
